@@ -11,25 +11,36 @@
         <div class="header">
             <h1>Welcome to my Streak Counter</h1>
             <div class="showcase">
-                <!-- <img src="/assets/phone.png" alt="image of phone" class="phone-image"> -->
-                <!-- <img src="/assets/watch2.0.png" alt="smartwatch image" class="watch-image"> -->
+                <img src="/assets/Capture.PNG" alt="image of phone" class="phone-image">
             </div>
             <div class="data">
                 <form>
                     <label for="Habit">Name of Habit:</label>
-                    <input type="text" id="habit" name="habit" required>
+                    <input type="text" id="habit" name="habit" placeholder="Habit to stop or start" required>
 
                     <label for="startDate">Date:</label>
                     <input type="date" id="startDate" name="startDate" required>
-                    <label for="NameImage">Input the name of Image that best describes your habit</label>
-                    <input type="text" id="ImageName" name="NameofImage">
+                    <!-- <label for="NameImage">Input the name of Image that best describes your habit</label>
+                    <input type="text" id="ImageName" name="NameofImage" placeholder="eg. bed-outline"> -->
+                    <select name="dropdown" id="dropdown" aria-placeholder="eg. bed-outline">
+                        <option value="0">Choose ....</option>
+                        <option value="bed-outline">Sleeping</option>
+                        <option value="-wallet-outline">Savings</option>
+                        <option value="beer-outline">Drinking Alcohol</option>
+                        <option value="walk-outline">Taking walks</option>
+                        <option value="bicycle-outline">Cycling</option>
+                        <option value="barbell-outline">Exercising</option>
+                        <option value="book-outline">Reading</option>
+                        <option value="logo-no-smoking">Smoking</option>
+                        <option value="restaurant-outline">Eating healthy</option>
+                    </select>
                  <button type="icon"><ion-icon name="add-circle-outline"></ion-icon></button>  
                 </form>
                 
             </div>
         </div>
+        <h3>My Activity's Streak</h3>
         <div class="activities">
-            <h3></h3>
             <div class="action">
                 <ion-icon name="logo-no-smoking"></ion-icon>
                 <p>2022-06-07 <br> Smoking</p>

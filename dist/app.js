@@ -68,7 +68,7 @@ document.querySelector('form').addEventListener('submit', (e) => __awaiter(void 
     e.preventDefault();
     const habitInput = document.querySelector('#habit');
     const startDateInput = document.querySelector('#startDate');
-    const ImageInput = document.querySelector('#ImageName');
+    const ImageInput = document.querySelector('#dropdown');
     const newHabit = {
         name: habitInput.value,
         startDate: startDateInput.value,

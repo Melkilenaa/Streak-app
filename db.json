@@ -1,9 +1,21 @@
 {
   "habits": [
     {
-      "id": "1349",
-      "name": "Sleeping Alot",
-      "startDate": "2024-05-16",
+      "id": "09b0",
+      "name": "smoking",
+      "startDate": "2024-05-31",
+      "habitImage": "logo-no-smoking"
+    },
+    {
+      "id": "c5f1",
+      "name": "marvo the GOAT",
+      "startDate": "2024-06-01",
+      "habitImage": "barbell-outline"
+    },
+    {
+      "id": "9eef",
+      "name": "sleeping alot",
+      "startDate": "2024-05-20",
       "habitImage": "bed-outline"
     }
   ]
