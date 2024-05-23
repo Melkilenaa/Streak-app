@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Streak-Counter App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to my Streak Counter</h1>
+            <div class="showcase">
+                <!-- <img src="/assets/phone.png" alt="image of phone" class="phone-image"> -->
+                <!-- <img src="/assets/watch2.0.png" alt="smartwatch image" class="watch-image"> -->
+            </div>
+            <div class="data">
+                <form>
+                    <label for="Habit">Name of Habit:</label>
+                    <input type="text" id="habit" name="habit" required>
+
+                    <label for="startDate">Date:</label>
+                    <input type="date" id="startDate" name="startDate" required>
+                    <label for="NameImage">Input the name of Image that best describes your habit</label>
+                    <input type="text" id="ImageName" name="NameofImage">
+                 <button type="icon"><ion-icon name="add-circle-outline"></ion-icon></button>  
+                </form>
+                
+            </div>
+        </div>
+        <div class="activities">
+            <h3></h3>
+            <div class="action">
+                <ion-icon name="logo-no-smoking"></ion-icon>
+                <p>2022-06-07 <br> Smoking</p>
+                <p class="tracking-days"> 20 days</p>
+            </div>
+            <div class="action">
+                <ion-icon name="bicycle-outline"></ion-icon>
+                    <p>2022-07-14 <br> Cycling</p>
+                    <p class="tracking-days"> 20 days</p>
+            </div>
+            <div class="action">
+                <ion-icon name="restaurant-outline"></ion-icon>
+                    <p>2022-07-15 <br>Healthy Eating </p>
+                    <p class="tracking-days"> 20 days</p>
+            </div>
+            <div class="action">
+                <ion-icon name="bed-outline"></ion-icon>
+                    <p> 2022-07-14<br>Enough sleep</p>
+                    <p class="tracking-days"> 20 days</p>
+            </div>
+            <div class="action">
+                <ion-icon name="walk-outline"></ion-icon>
+                    <p>2022-07-14 <br> Taking Walks</p>
+                    <p class="tracking-days"> 20 days</p>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/dist/app.js"></script>
+</body>
+</html>
